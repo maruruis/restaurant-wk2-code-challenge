@@ -17,5 +17,5 @@ customer3.add_review(restaurant2, 3)
 
 print("Average Star Rating for Taco 'Bout It:", restaurant1.average_star_rating())
 print("Restaurants reviewed by Ian Kimani:", [restaurant.name for restaurant in customer1.restaurants()])
-print("Customer found by name :", Customer.find_by_name("Ian Kimani").full_name())
+print("Customer found by full name:", Customer.find_by_name("Ian Kimani").full_name())
 print("All customers with given name 'Ian':", [customer.full_name() for customer in Customer.find_all_by_given_name("Ian")])
