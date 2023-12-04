@@ -10,8 +10,8 @@ restaurant1 = Restaurant("Taco 'Bout It")
 restaurant2 = Restaurant("Lettuce Entertain You")
 
 customer1.add_review(restaurant1, 5)
-customer2.add_review(restaurant1, 4)
-customer3.add_review(restaurant1, 4)
+customer2.add_review(restaurant1, 5)
+customer3.add_review(restaurant2, 4)
 customer1.add_review(restaurant2, 5)
 customer3.add_review(restaurant2, 3)
 
